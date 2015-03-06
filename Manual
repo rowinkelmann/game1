@@ -1,0 +1,18 @@
+Game Manual
+
+The game I am planning to build will be a slightly modified version of snake.
+
+The “live” blocks will be the snake itself.
+
+The “dead” blocks will be the snake food.  This is where my game will be modified,
+as I will have the food start the color green and then after 5 seconds change to 
+yellow and after another five seconds turn black.  If you eat the food when it is 
+green you will gain 2 points and gain one point for eating it when it is yellow.  
+The black food however is “rotten” and if you eat it you will lose.  A new piece 
+of food will appear at a random location in the field of play after either the previous 
+food is eaten or 10 seconds goes by, whichever comes first.  The “rotten food will be 
+removed from the field of play after it has been “rotten” for 15 seconds.
+
+A player can also lose by crashing into one of the “walls” marking the end of the field of play.
+
+The player will control the snake with the arrow keys.
